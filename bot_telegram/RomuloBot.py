@@ -1,6 +1,6 @@
 import requests
 import time 
-token = "1953843301:AAHZEQDGMmN1jhtoXvgrTK-7NtfZUpepTik"
+token = ""
 import pvuvalue
 
 
@@ -59,7 +59,7 @@ def get_msg(update_id):
 
 if __name__ == '__main__':
     import time
-    update_id = "936626188"
+    update_id = ""
     while True:
         update_id = get_msg(update_id)
         time.sleep(5)
